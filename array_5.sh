@@ -17,3 +17,11 @@ for((i=0;i<6;i++));
 do
     echo "${my_array[i]}"
 done
+
+#updating the array
+my_array+=(New 6 7)
+#printing using a loop
+for((i=0;i<9;i++));
+do
+    echo "${my_array[i]}"
+done
