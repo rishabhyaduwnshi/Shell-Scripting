@@ -8,6 +8,9 @@ echo "Value  at 3rd index is : ${my_array[3]}"
 echo "Value  at 4th index is : ${my_array[4]}"
 echo "Value  at 5th index is : ${my_array[5]}"
 
+#printing size of array
+echo "Size of array is ${#my_array[*]}"
+
 
 #printing using a loop
 for((i=0;i<6;i++));
