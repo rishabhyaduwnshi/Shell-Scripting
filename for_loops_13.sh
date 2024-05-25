@@ -24,5 +24,14 @@ do
     echo "Number is $i"
 done
 
+
+
+#reading contents from a file word by word using for loop
+FILE="/home/main.txt"
+for name in $(cat $FILE)
+do
+    echo "Name is $name"
+done
+
     
 
