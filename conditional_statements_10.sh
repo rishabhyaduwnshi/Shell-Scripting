@@ -55,3 +55,15 @@ else
     echo "Number 2 is less than Number 1"
 fi
 
+
+
+#elif
+if [ $number_2 -eq 100 ];
+then
+    echo "Number is 100"
+elif  [ $number_2 -eq 200 ];
+then
+    echo "Number is 200"
+else
+    echo "Number is 300"
+fi
